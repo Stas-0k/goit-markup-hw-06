@@ -873,3 +873,45 @@ color: var(--primary-white-color);
 .form-cont-foot {
   display: flex;
 }
+
+.modal-form {
+  padding: 40px;
+}
+
+.modal-label {
+  display: flex;
+  position: relative;
+  }
+
+  
+
+  .modal-label:not(:last-child) {   
+    margin-bottom: 28px;    
+  }
+
+
+.name-area {
+  position: absolute;
+  top: -18px;
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color);
+}
+
+.header-modal {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.modal-input {
+  width: 448px;
+  height: 40px;
+}
+
+.modal-textarea {
+  width: 448px;
+  height: 120px;
+  resize: none;
+}

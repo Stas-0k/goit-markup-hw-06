@@ -479,10 +479,11 @@
           <div class="modal-form-cont">
             <label class="modal-label">
               <span class="name-area">Имя</span>
-              <input class="modal-input" type="text" name="user-name" />
+              <input class="modal-input" type="text" name="user-name" required minlength="4"/>
               <svg width="12" height="12" class="modal-icon">
                 <use href="./images/icon.svg#icon-modal-name"></use>
               </svg>
+              <span class="modal-notification">Имя должно быть не короче 4 симовлов</span>
             </label>
 
             <label class="modal-label">
@@ -513,12 +514,12 @@
           </div>
 
           <label class="modal-checkbox">
-            <input class="visualy-hidden" type="checkbox" name="" id="" />
+            <input class="register-box visualy-hidden" type="checkbox" name="checkbox" id="" />
             <svg width="16" height="15" class="checkbox-icon">
-              <use href="./images/icon.svg#icon-uncheck"></use>
-              <use href="./images/icon.svg#icon-check"></use>
+              <use href="./images/icon.svg#icon-uncheck" class="checkbox-icon-uncheck"></use>
+              <use href="./images/icon.svg#icon-check" class="checkbox-icon-check"></use>
             </svg>
-            <span
+            <span class="text-checkbox"
               >Согласен с рассылкой и принимаю
               <a href="" class="link-modal">Условия договора</a></span
             >

@@ -250,7 +250,26 @@ a {
 
   animation: hero-button 600ms linear 100ms 1 alternate both;
   transform-origin: right center;
+  transition: background-color var(--transition), color var(--transition) ;
 }
+
+.section .button:hover,
+.section .button:focus,
+.button-footer:hover,
+.button-footer:focus,
+.button-form:hover,
+.button-form:focus
+  {
+    background-color: var(--primary-white-color);
+    color: var(--accent-color);
+  }
+
+
+    .button-footer:hover .footer-button-icon,
+    .button-footer:focus .footer-button-icon {
+      fill: var(--accent-color);
+    }
+
 
 @keyframes hero-button {
   0% {
@@ -884,6 +903,7 @@ color: var(--primary-white-color);
 .footer-button-icon {
   margin-left: 10px;
   fill: var(--primary-white-color);
+  transition: fill var(--transition);
 }
 
 .form-cont-foot {

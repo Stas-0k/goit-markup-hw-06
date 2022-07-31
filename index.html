@@ -431,37 +431,40 @@
       <form name="modal-form" class="modal-form">
         <strong class="header-modal">Оставьте свои данные, мы вам перезвоним</strong>
 
-        <div class="modal-form-cont">
+       
           <label class="modal-label">
-            <span class="name-area">Имя</span>
+            Имя
+            <span class="input-wrapper">
             <input class="modal-input" type="text" name="user-name" required minlength="4" />
             <svg width="12" height="12" class="modal-icon">
               <use href="./images/icon.svg#icon-modal-name"></use>
-            </svg>
+            </svg></span>
             <span class="modal-notification">Имя должно быть не короче 4 симовлов</span>
           </label>
 
           <label class="modal-label">
-            <span class="name-area">Телефон</span>
+            Телефон
+            <span class="input-wrapper">
             <input class="modal-input" type="tel" name="user-tel" />
             <svg width="13" height="13" class="modal-icon">
               <use href="./images/icon.svg#icon-modal-phone"></use>
-            </svg>
+            </svg></span>
           </label>
 
           <label class="modal-label">
-            <span class="name-area">Почта</span>
+           Почта
+            <span class="input-wrapper">
             <input class="modal-input" type="email" name="user-email" />
             <svg width="15" height="12" class="modal-icon">
               <use href="./images/icon.svg#icon-modal-email"></use>
-            </svg>
+            </svg></span>
           </label>
 
           <label class="modal-label">
-            <span class="name-area">Комментарий</span>
+           Комментарий
             <textarea name="user-comment" class="modal-textarea" placeholder="Введите текст"></textarea>
           </label>
-        </div>
+        
 
         <label class="modal-checkbox">
           <input class="register-box visualy-hidden" type="checkbox" name="checkbox"/>

@@ -888,7 +888,6 @@ a {
 
 .footer-form {
   margin-left: 93px;
-  height: 50px;
 }
 
 .button-footer {
@@ -1023,6 +1022,12 @@ a {
 
 .text-checkbox {
   user-select: none;
+
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 .modal-notification {
